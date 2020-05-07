@@ -96,7 +96,7 @@ nextjs-material-kit
 │   │   │   └── pages
 │   │   │       ├── componentsSections
 │   │   │       └── landingPageSections
-│   │   └── nextjs-material-kit.js
+│   │   └── losNonosStyles.js
 │   └── scss
 │       ├── core
 │       │   ├── mixins

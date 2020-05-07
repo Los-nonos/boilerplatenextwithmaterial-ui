@@ -1,12 +1,3 @@
-import React, { Component } from "react";
-import Router from "next/router";
+import Landing from "../Views/Containers/Landing";
 
-export default class Index extends Component {
-  componentDidMount = () => {
-    Router.push("/components");
-  };
-
-  render() {
-    return <div />;
-  }
-}
+export default Landing;
