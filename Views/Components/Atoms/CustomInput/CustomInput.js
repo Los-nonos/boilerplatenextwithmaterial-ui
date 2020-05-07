@@ -9,7 +9,7 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
 
-import styles from "Syles/losNonosStyles/components/customInputStyle.js";
+import styles from "Styles/losNonosStyles/components/customInputStyle.js";
 
 const useStyles = makeStyles(styles);
 

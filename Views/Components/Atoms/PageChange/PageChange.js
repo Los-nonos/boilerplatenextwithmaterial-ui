@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 // core components
-import { infoColor, title } from "Syles/losNonosStyles.js";
+import { infoColor, title } from "Styles/losNonosStyles.js";
 
 const useStyles = makeStyles({
   progress: {
@@ -40,7 +40,7 @@ export default function PageChange(props) {
           <CircularProgress className={classes.progress} />
         </div>
         <h4 className={classes.title}>
-          Loading page contents for: {props.path}
+          Loading
         </h4>
       </div>
     </div>

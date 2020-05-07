@@ -8,7 +8,7 @@ import Warning from "@material-ui/icons/Warning";
 import SnackbarContent from "Views/Components/Atoms/Snackbar/SnackbarContent.js";
 import Clearfix from "Views/Components/Atoms/Clearfix/Clearfix.js";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/notificationsStyles.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/notificationsStyles.js";
 
 const useStyles = makeStyles(styles);
 

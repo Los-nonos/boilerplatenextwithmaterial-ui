@@ -9,10 +9,9 @@ import PageChange from "Views/Components/Atoms/PageChange/PageChange.js";
 /**
  * unique import to styles with extension scss
  */
-import "Syles/Static/BaseStyles.scss?v=1.0.0";
+import "Styles/Static/BaseStyles.scss?v=1.0.0";
 
 Router.events.on("routeChangeStart", url => {
-  console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");
   ReactDOM.render(
     <PageChange path={url} />,

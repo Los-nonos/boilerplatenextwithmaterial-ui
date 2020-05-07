@@ -22,7 +22,7 @@ import CustomLinearProgress from "Views/Components/Atoms/CustomLinearProgress/Cu
 import Paginations from "Views/Components/Atoms/Pagination/Pagination.js";
 import Badge from "Views/Components/Atoms/Badge/Badge.js";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/basicsStyle.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/basicsStyle.js";
 
 const useStyles = makeStyles(styles);
 

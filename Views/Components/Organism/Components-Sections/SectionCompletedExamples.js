@@ -7,7 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "Views/Components/Atoms/Grid/GridContainer.js";
 import GridItem from "Views/Components/Atoms/Grid/GridItem.js";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/completedStyle.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/completedStyle.js";
 
 const useStyles = makeStyles(styles);
 

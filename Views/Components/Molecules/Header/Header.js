@@ -15,7 +15,7 @@ import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
-import styles from "Syles/losNonosStyles/components/headerStyle.js";
+import styles from "Styles/losNonosStyles/components/headerStyle.js";
 
 const useStyles = makeStyles(styles);
 

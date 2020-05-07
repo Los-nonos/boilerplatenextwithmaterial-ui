@@ -18,7 +18,7 @@ import Quote from "Views/Components/Atoms/Typography/Quote.js";
 
 import image from "public/img/faces/avatar.jpg";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/typographyStyle.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/typographyStyle.js";
 
 const useStyles = makeStyles(styles);
 

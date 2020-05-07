@@ -14,7 +14,7 @@ import image1 from "public/img/bg.jpg";
 import image2 from "public/img/bg2.jpg";
 import image3 from "public/img/bg3.jpg";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/carouselStyle.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/carouselStyle.js";
 
 const useStyles = makeStyles(styles);
 

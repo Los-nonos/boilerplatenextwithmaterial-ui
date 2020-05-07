@@ -30,7 +30,7 @@ import work3 from "public/img/examples/cynthia-del-rio.jpg";
 import work4 from "public/img/examples/mariya-georgieva.jpg";
 import work5 from "public/img/examples/clem-onojegaw.jpg";
 
-import styles from "Syles/losNonosStyles/pages/profilePage.js";
+import styles from "Styles/losNonosStyles/pages/profilePage.js";
 
 const useStyles = makeStyles(styles);
 

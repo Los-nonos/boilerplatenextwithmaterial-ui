@@ -21,7 +21,7 @@ import GridContainer from "Views/Components/Atoms/Grid/GridContainer.js";
 import GridItem from "Views/Components/Atoms/Grid/GridItem.js";
 import Button from "Views/Components/Atoms/CustomButtons/Button.js";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/javascriptStyles.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/javascriptStyles.js";
 
 const useStyles = makeStyles(styles);
 

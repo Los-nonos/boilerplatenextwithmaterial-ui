@@ -13,7 +13,7 @@ import Button from "Views/Components/Atoms/CustomButtons/Button.js";
 import landing from "public/img/landing.jpg";
 import profile from "public/img/profile.jpg";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/exampleStyle.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);
 

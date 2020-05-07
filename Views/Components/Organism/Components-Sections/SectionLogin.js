@@ -16,7 +16,7 @@ import CardFooter from "Views/Components/Atoms/Card/CardFooter.js";
 import Button from "Views/Components/Atoms/CustomButtons/Button.js";
 import CustomInput from "Views/Components/Atoms/CustomInput/CustomInput.js";
 
-import styles from "Syles/losNonosStyles/pages/componentsSections/loginStyle.js";
+import styles from "Styles/losNonosStyles/pages/componentsSections/loginStyle.js";
 
 const useStyles = makeStyles(styles);
 

@@ -6,7 +6,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import styles from "Syles/losNonosStyles/components/infoStyle.js";
+import styles from "Styles/losNonosStyles/components/infoStyle.js";
 
 const useStyles = makeStyles(styles);
 
