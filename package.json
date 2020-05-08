@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
+    "dev": "next-translate && next",
+    "build": "next-translate && next build",
     "start": "next start",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
@@ -41,6 +41,7 @@
     "next": "9.3.2",
     "next-compose-plugins": "2.2.0",
     "next-images": "1.1.2",
+    "next-translate": "^0.15.1",
     "nextjs-redirect": "1.0.2",
     "node-sass": "^4.13.1",
     "nouislider": "14.0.2",
