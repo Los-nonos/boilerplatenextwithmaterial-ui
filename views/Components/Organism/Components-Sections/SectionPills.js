@@ -12,7 +12,7 @@ import GridContainer from "views/Components/Atoms/Grid/GridContainer.js";
 import GridItem from "views/Components/Atoms/Grid/GridItem.js";
 import NavPills from "views/Components/Atoms/NavPills/NavPills.js";
 
-import styles from "styles/losNonosStyles/pages/componentsSections/pillsStyle.js";
+import styles from "styles/losNonosStyles/components/Organism/componentsSections/pillsStyle.js";
 
 const useStyles = makeStyles(styles);
 

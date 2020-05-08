@@ -10,7 +10,7 @@ import Button from "@material-ui/core/Button";
 
 // core components
 
-import buttonStyle from "styles/losNonosStyles/components/buttonStyle.js";
+import buttonStyle from "styles/losNonosStyles/components/Atoms/buttonStyle.js";
 
 const makeComponentStyles = makeStyles(() => ({
   ...buttonStyle

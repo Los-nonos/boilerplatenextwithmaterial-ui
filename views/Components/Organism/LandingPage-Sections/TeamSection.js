@@ -14,7 +14,7 @@ import Card from "views/Components/Atoms/Card/Card.js";
 import CardBody from "views/Components/Atoms/Card/CardBody.js";
 import CardFooter from "views/Components/Atoms/Card/CardFooter.js";
 
-import styles from "styles/losNonosStyles/pages/landingPageSections/teamStyle.js";
+import styles from "styles/losNonosStyles/components/Organism/landingPageSections/teamStyle.js";
 
 import team1 from "public/img/faces/avatar.jpg";
 import team2 from "public/img/faces/christian.jpg";

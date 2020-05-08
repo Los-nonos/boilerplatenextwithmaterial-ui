@@ -17,7 +17,7 @@ import IconButton from "@material-ui/core/IconButton";
 import CustomDropdown from "views/Components/Atoms/CustomDropdown/CustomDropdown.js";
 import Button from "views/Components/Atoms/CustomButtons/Button.js";
 
-import styles from "styles/losNonosStyles/components/headerLinksStyle.js";
+import styles from "styles/losNonosStyles/components/Molecules/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
 

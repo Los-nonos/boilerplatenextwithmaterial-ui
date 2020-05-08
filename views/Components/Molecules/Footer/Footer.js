@@ -11,7 +11,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 
-import styles from "styles/losNonosStyles/components/footerStyle.js";
+import styles from "styles/losNonosStyles/components/Molecules/footerStyle.js";
 
 const useStyles = makeStyles(styles);
 

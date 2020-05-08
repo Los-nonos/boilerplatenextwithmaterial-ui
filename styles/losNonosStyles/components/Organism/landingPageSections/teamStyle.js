@@ -1,5 +1,5 @@
 import { cardTitle, title } from "styles/losNonosStyles.js";
-import imagesStyle from "styles/losNonosStyles/imagesStyles.js";
+import imagesStyle from "styles/losNonosStyles/components/Atoms/imagesStyles.js";
 
 const teamStyle = {
   section: {

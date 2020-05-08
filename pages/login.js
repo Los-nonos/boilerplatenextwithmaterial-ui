@@ -19,7 +19,7 @@ import CardHeader from "views/Components/Atoms/Card/CardHeader.js";
 import CardFooter from "views/Components/Atoms/Card/CardFooter.js";
 import CustomInput from "views/Components/Atoms/CustomInput/CustomInput.js";
 
-import styles from "styles/losNonosStyles/pages/loginPage.js";
+import styles from "styles/losNonosStyles/containers/loginPage.js";
 
 import image from "public/img/bg7.jpg";
 

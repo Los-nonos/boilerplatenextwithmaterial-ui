@@ -14,7 +14,7 @@ import Card from "views/Components/Atoms/Card/Card.js";
 import CardBody from "views/Components/Atoms/Card/CardBody.js";
 import CardHeader from "views/Components/Atoms/Card/CardHeader.js";
 
-import styles from "styles/losNonosStyles/components/customTabsStyle.js";
+import styles from "styles/losNonosStyles/components/Atoms/customTabsStyle.js";
 
 const useStyles = makeStyles(styles);
 

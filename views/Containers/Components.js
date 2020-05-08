@@ -28,7 +28,7 @@ import SectionLogin from "../Components/Organism/Components-Sections/SectionLogi
 import SectionExamples from "../Components/Organism/Components-Sections/SectionExamples.js";
 import SectionDownload from "../Components/Organism/Components-Sections/SectionDownload.js";
 
-import styles from "../../styles/losNonosStyles/pages/components.js";
+import styles from "../../styles/losNonosStyles/containers/components.js";
 
 const useStyles = makeStyles(styles);
 

@@ -1,8 +1,8 @@
 import { container, title } from "styles/losNonosStyles.js";
 
-import modalStyle from "styles/losNonosStyles/modalStyle.js";
-import tooltipsStyle from "styles/losNonosStyles/tooltipsStyle.js";
-import popoverStyles from "styles/losNonosStyles/popoverStyles.js";
+import modalStyle from "styles/losNonosStyles/components/Atoms/modalStyle.js";
+import tooltipsStyle from "styles/losNonosStyles/components/Atoms/tooltipsStyle.js";
+import popoverStyles from "styles/losNonosStyles/components/Atoms/popoverStyles.js";
 
 const javascriptStyles = {
   section: {

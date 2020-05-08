@@ -11,7 +11,7 @@ import GridContainer from "views/Components/Atoms/Grid/GridContainer.js";
 import GridItem from "views/Components/Atoms/Grid/GridItem.js";
 import CustomTabs from "views/Components/Atoms/CustomTabs/CustomTabs.js";
 
-import styles from "styles/losNonosStyles/pages/componentsSections/tabsStyle.js";
+import styles from "styles/losNonosStyles/components/Organism/componentsSections/tabsStyle.js";
 
 const useStyles = makeStyles(styles);
 

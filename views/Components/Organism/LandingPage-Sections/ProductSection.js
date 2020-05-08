@@ -11,7 +11,7 @@ import GridContainer from "views/Components/Atoms/Grid/GridContainer.js";
 import GridItem from "views/Components/Atoms/Grid/GridItem.js";
 import InfoArea from "views/Components/Atoms/InfoArea/InfoArea.js";
 
-import styles from "styles/losNonosStyles/pages/landingPageSections/productStyle.js";
+import styles from "styles/losNonosStyles/components/Organism/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
 

@@ -1,5 +1,5 @@
 import { container, title, grayColor } from "styles/losNonosStyles.js";
-import headerLinksStyle from "styles/losNonosStyles/components/headerLinksStyle.js";
+import headerLinksStyle from "styles/losNonosStyles/components/Molecules/headerLinksStyle.js";
 
 const navbarsStyle = theme => ({
   section: {

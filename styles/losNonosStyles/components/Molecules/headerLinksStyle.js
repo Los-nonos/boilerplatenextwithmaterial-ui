@@ -1,6 +1,6 @@
 import { defaultFont } from "styles/losNonosStyles.js";
 
-import tooltip from "styles/losNonosStyles/tooltipsStyle.js";
+import tooltip from "styles/losNonosStyles/components/Atoms/tooltipsStyle.js";
 
 const headerLinksStyle = theme => ({
   list: {

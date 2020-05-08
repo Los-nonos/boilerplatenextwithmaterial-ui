@@ -1,5 +1,5 @@
 import { container, title } from "styles/losNonosStyles.js";
-import customCheckboxRadioSwitch from "styles/losNonosStyles/customCheckboxRadioSwitch.js";
+import customCheckboxRadioSwitch from "styles/losNonosStyles/components/Atoms/customCheckboxRadioSwitch.js";
 
 const basicsStyle = {
   sections: {

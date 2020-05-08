@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import styles from "styles/losNonosStyles/components/badgeStyle.js";
+import styles from "styles/losNonosStyles/components/Atoms/badgeStyle.js";
 
 const useStyles = makeStyles(styles);
 

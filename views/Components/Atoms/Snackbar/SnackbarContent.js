@@ -10,7 +10,7 @@ import Icon from "@material-ui/core/Icon";
 import Close from "@material-ui/icons/Close";
 // core components
 
-import styles from "styles/losNonosStyles/components/snackbarContentStyle.js";
+import styles from "styles/losNonosStyles/components/Atoms/snackbarContentStyle.js";
 
 const useStyles = makeStyles(styles);
 

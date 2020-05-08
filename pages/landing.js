@@ -15,7 +15,7 @@ import Button from "views/Components/Atoms/CustomButtons/Button.js";
 import HeaderLinks from "views/Components/Molecules/Header/HeaderLinks.js";
 import Parallax from "views/Components/Atoms/Parallax/Parallax.js";
 
-import styles from "styles/losNonosStyles/pages/landingPage.js";
+import styles from "styles/losNonosStyles/containers/landingPage.js";
 
 // Sections for this page
 import ProductSection from "views/Components/Organism/LandingPage-Sections/ProductSection.js";

@@ -1,6 +1,6 @@
 import { container, title } from "styles/losNonosStyles.js";
 
-import imagesStyles from "styles/losNonosStyles/imagesStyles.js";
+import imagesStyles from "styles/losNonosStyles/components/Atoms/imagesStyles.js";
 
 const typographyStyle = {
   section: {

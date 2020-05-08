@@ -10,7 +10,7 @@ import GridItem from "views/Components/Atoms/Grid/GridItem.js";
 import CustomInput from "views/Components/Atoms/CustomInput/CustomInput.js";
 import Button from "views/Components/Atoms/CustomButtons/Button.js";
 
-import styles from "styles/losNonosStyles/pages/landingPageSections/workStyle.js";
+import styles from "styles/losNonosStyles/components/Organism/landingPageSections/workStyle.js";
 
 const useStyles = makeStyles(styles);
 

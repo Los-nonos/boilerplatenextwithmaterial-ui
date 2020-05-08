@@ -21,7 +21,7 @@ import Button from "views/Components/Atoms/CustomButtons/Button.js";
 import image from "public/img/bg.jpg";
 import profileImage from "public/img/faces/avatar.jpg";
 
-import styles from "styles/losNonosStyles/pages/componentsSections/navbarsStyle.js";
+import styles from "styles/losNonosStyles/components/Organism/componentsSections/navbarsStyle.js";
 
 const useStyles = makeStyles(styles);
 
