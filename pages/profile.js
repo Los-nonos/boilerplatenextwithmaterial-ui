@@ -8,14 +8,14 @@ import Camera from "@material-ui/icons/Camera";
 import Palette from "@material-ui/icons/Palette";
 import Favorite from "@material-ui/icons/Favorite";
 // core components
-import Header from "Views/Components/Molecules/Header/Header.js";
-import Footer from "Views/Components/Molecules/Footer/Footer.js";
-import Button from "Views/Components/Atoms/CustomButtons/Button.js";
-import GridContainer from "Views/Components/Atoms/Grid/GridContainer.js";
-import GridItem from "Views/Components/Atoms/Grid/GridItem.js";
-import HeaderLinks from "Views/Components/Molecules/Header/HeaderLinks.js";
-import NavPills from "Views/Components/Atoms/NavPills/NavPills.js";
-import Parallax from "Views/Components/Atoms/Parallax/Parallax.js";
+import Header from "views/Components/Molecules/Header/Header.js";
+import Footer from "views/Components/Molecules/Footer/Footer.js";
+import Button from "views/Components/Atoms/CustomButtons/Button.js";
+import GridContainer from "views/Components/Atoms/Grid/GridContainer.js";
+import GridItem from "views/Components/Atoms/Grid/GridItem.js";
+import HeaderLinks from "views/Components/Molecules/Header/HeaderLinks.js";
+import NavPills from "views/Components/Atoms/NavPills/NavPills.js";
+import Parallax from "views/Components/Atoms/Parallax/Parallax.js";
 
 import profile from "public/img/faces/christian.jpg";
 
@@ -30,7 +30,7 @@ import work3 from "public/img/examples/cynthia-del-rio.jpg";
 import work4 from "public/img/examples/mariya-georgieva.jpg";
 import work5 from "public/img/examples/clem-onojegaw.jpg";
 
-import styles from "Styles/losNonosStyles/pages/profilePage.js";
+import styles from "styles/losNonosStyles/pages/profilePage.js";
 
 const useStyles = makeStyles(styles);
 

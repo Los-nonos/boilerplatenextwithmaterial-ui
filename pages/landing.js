@@ -7,20 +7,20 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 
 // core components
-import Header from "Views/Components/Molecules/Header/Header.js";
-import Footer from "Views/Components/Molecules/Footer/Footer.js";
-import GridContainer from "Views/Components/Atoms/Grid/GridContainer.js";
-import GridItem from "Views/Components/Atoms/Grid/GridItem.js";
-import Button from "Views/Components/Atoms/CustomButtons/Button.js";
-import HeaderLinks from "Views/Components/Molecules/Header/HeaderLinks.js";
-import Parallax from "Views/Components/Atoms/Parallax/Parallax.js";
+import Header from "views/Components/Molecules/Header/Header.js";
+import Footer from "views/Components/Molecules/Footer/Footer.js";
+import GridContainer from "views/Components/Atoms/Grid/GridContainer.js";
+import GridItem from "views/Components/Atoms/Grid/GridItem.js";
+import Button from "views/Components/Atoms/CustomButtons/Button.js";
+import HeaderLinks from "views/Components/Molecules/Header/HeaderLinks.js";
+import Parallax from "views/Components/Atoms/Parallax/Parallax.js";
 
-import styles from "Styles/losNonosStyles/pages/landingPage.js";
+import styles from "styles/losNonosStyles/pages/landingPage.js";
 
 // Sections for this page
-import ProductSection from "Views/Components/Organism/LandingPage-Sections/ProductSection.js";
-import TeamSection from "Views/Components/Organism/LandingPage-Sections/TeamSection.js";
-import WorkSection from "Views/Components/Organism/LandingPage-Sections/WorkSection.js";
+import ProductSection from "views/Components/Organism/LandingPage-Sections/ProductSection.js";
+import TeamSection from "views/Components/Organism/LandingPage-Sections/TeamSection.js";
+import WorkSection from "views/Components/Organism/LandingPage-Sections/WorkSection.js";
 
 const dashboardRoutes = [];
 

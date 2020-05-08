@@ -1,3 +1,3 @@
-import Landing from "../Views/Containers/Landing";
+import Landing from "../views/Containers/Landing";
 
 export default Landing;

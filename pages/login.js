@@ -7,19 +7,19 @@ import Icon from "@material-ui/core/Icon";
 import Email from "@material-ui/icons/Email";
 import People from "@material-ui/icons/People";
 // core components
-import Header from "Views/Components/Molecules/Header/Header.js";
-import HeaderLinks from "Views/Components/Molecules/Header/HeaderLinks.js";
-import Footer from "Views/Components/Molecules/Footer/Footer.js";
-import GridContainer from "Views/Components/Atoms/Grid/GridContainer.js";
-import GridItem from "Views/Components/Atoms/Grid/GridItem.js";
-import Button from "Views/Components/Atoms/CustomButtons/Button.js";
-import Card from "Views/Components/Atoms/Card/Card.js";
-import CardBody from "Views/Components/Atoms/Card/CardBody.js";
-import CardHeader from "Views/Components/Atoms/Card/CardHeader.js";
-import CardFooter from "Views/Components/Atoms/Card/CardFooter.js";
-import CustomInput from "Views/Components/Atoms/CustomInput/CustomInput.js";
+import Header from "views/Components/Molecules/Header/Header.js";
+import HeaderLinks from "views/Components/Molecules/Header/HeaderLinks.js";
+import Footer from "views/Components/Molecules/Footer/Footer.js";
+import GridContainer from "views/Components/Atoms/Grid/GridContainer.js";
+import GridItem from "views/Components/Atoms/Grid/GridItem.js";
+import Button from "views/Components/Atoms/CustomButtons/Button.js";
+import Card from "views/Components/Atoms/Card/Card.js";
+import CardBody from "views/Components/Atoms/Card/CardBody.js";
+import CardHeader from "views/Components/Atoms/Card/CardHeader.js";
+import CardFooter from "views/Components/Atoms/Card/CardFooter.js";
+import CustomInput from "views/Components/Atoms/CustomInput/CustomInput.js";
 
-import styles from "Styles/losNonosStyles/pages/loginPage.js";
+import styles from "styles/losNonosStyles/pages/loginPage.js";
 
 import image from "public/img/bg7.jpg";
 

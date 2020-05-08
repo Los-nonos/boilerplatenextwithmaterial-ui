@@ -1,3 +1,3 @@
-import Components from "../Views/Containers/Components";
+import Components from "../views/Containers/Components";
 
 export default Components;

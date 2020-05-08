@@ -4,12 +4,12 @@ import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
 
-import PageChange from "Views/Components/Atoms/PageChange/PageChange.js";
+import PageChange from "views/Components/Atoms/PageChange/PageChange.js";
 
 /**
  * unique import to styles with extension scss
  */
-import "Styles/Static/BaseStyles.scss?v=1.0.0";
+import "styles/static/BaseStyles.scss?v=1.0.0";
 
 Router.events.on("routeChangeStart", url => {
   document.body.classList.add("body-page-transition");
