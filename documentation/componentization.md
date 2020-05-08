@@ -20,3 +20,7 @@ Los organismos son conjuntos de moleculas y atomos que contienen lógica y puede
 #### Containers
 
 Estos tienen la estructura completa de la vista y son los que se utilizan las comunicaciones asincronas con la api
+
+## Textos
+
+Los textos se proveerán mediante el paquete next-translate en el cuál generará la carpeta `/pages` con todos los textos que se agregan en los archivos `.json` en la carpeta `/locales`
