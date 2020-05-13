@@ -34,7 +34,7 @@ class MyApp extends App {
   componentDidMount() {
 
   }
-  static async getInitialProps({ Component, router, ctx }) {
+  static async getInitialProps({ Component, ctx }) {
     let pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {};
 
     //Anything returned here can be accessed by the client
