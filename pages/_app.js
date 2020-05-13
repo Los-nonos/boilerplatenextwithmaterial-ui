@@ -3,8 +3,10 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
+import { Provider } from 'react-redux';
 import PageChange from "views/Components/Atoms/PageChange/PageChange.js";
+import withRedux from "next-redux-wrapper";
+import store from '../config/configureStore';
 
 /**
  * unique import to styles with extension scss
@@ -27,29 +29,33 @@ Router.events.on("routeChangeError", () => {
   document.body.classList.remove("body-page-transition");
 });
 
-export default class MyApp extends App {
+class MyApp extends App {
   componentDidMount() {
 
   }
   static async getInitialProps({ Component, router, ctx }) {
-    let pageProps = {};
+    let pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {};
 
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
+    //Anything returned here can be accessed by the client
     return { pageProps };
   }
   render() {
-    const { Component, pageProps } = this.props;
+    //pageProps that were returned  from 'getInitialProps' are stored in the props i.e. pageprops
+    const { Component, pageProps, store } = this.props;
 
     return (
-      <React.Fragment>
-        <Head>
-          <title>NextJS Material Kit by Creative Tim</title>
-        </Head>
-        <Component {...pageProps} />
-      </React.Fragment>
+        <Provider store={store}>
+          <React.Fragment>
+            <Head>
+              <title>NextJS Material Kit by Creative Tim</title>
+            </Head>
+            <Component {...pageProps} />
+          </React.Fragment>
+        </Provider>
     );
   }
 }
+
+const makeStore = () => store;
+
+export default withRedux(makeStore)(MyApp);
