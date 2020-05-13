@@ -1,17 +1,27 @@
-import Landing from "../views/Containers/Landing";
 import React from 'react';
-import {connect} from "react-redux";
-import {decrementCounter, incrementCounter} from "../redux-sagas/actions/exampleActions";
+import {connect} from 'react-redux';
+import {decrementCounter, incrementCounter} from '../redux-sagas/actions/counterActions';
 
-class index extends React.Component {
-    static getInitialProps({store}){}
+class App extends React.Component {
+
+    static getInitialProps({store}) {}
+
+    constructor(props) {
+        super(props);
+    }
+
     render() {
-        return <Landing />
+        return (
+            <div>
+                <button onClick={this.props.incrementCounter}>Increment</button>
+                <button onClick={this.props.decrementCounter}>Decrement</button>
+                <h1>{this.props.counter}</h1>
+            </div>
+        );
     }
 }
-
 const mapStateToProps = state => ({
-    //counter: state.counter.value
+    counter: state.counter.value
 });
 
 const mapDispatchToProps = {
@@ -19,4 +29,4 @@ const mapDispatchToProps = {
     decrementCounter: decrementCounter,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(index);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

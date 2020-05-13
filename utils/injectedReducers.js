@@ -1,5 +1,5 @@
-import exampleReducer from "../redux-sagas/reducers/exampleReducer";
+import exampleReducer from "../redux-sagas/reducers/counterReducer";
 
 export default {
-    exampleReducer,
+    counter: exampleReducer,
 }
