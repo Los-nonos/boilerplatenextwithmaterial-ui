@@ -5,9 +5,7 @@ import Head from "next/head";
 import Router from "next/router";
 import { Provider } from 'react-redux';
 import PageChange from "views/Components/Atoms/PageChange/PageChange.js";
-import withRedux from "next-redux-wrapper";
-import withReduxSaga from 'next-redux-saga';
-import store from '../config/configureStore';
+import configureStore from '../config/configureStore';
 
 /**
  * unique import to styles with extension scss
@@ -42,8 +40,8 @@ class MyApp extends App {
   }
   render() {
     //pageProps that were returned  from 'getInitialProps' are stored in the props i.e. pageprops
-    const { Component, pageProps, store } = this.props;
-
+    const { Component, pageProps } = this.props;
+    const store = configureStore();
     return (
         <Provider store={store}>
           <React.Fragment>
@@ -57,9 +55,4 @@ class MyApp extends App {
   }
 }
 
-const makeStore = () => {
-  const initialState = {};
-  return store(initialState);
-};
-
-export default withRedux(makeStore)(withReduxSaga(MyApp));
+export default MyApp;

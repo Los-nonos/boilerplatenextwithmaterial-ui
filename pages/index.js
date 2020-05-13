@@ -11,7 +11,7 @@ class index extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    counter: state.counter.value
+    //counter: state.counter.value
 });
 
 const mapDispatchToProps = {
