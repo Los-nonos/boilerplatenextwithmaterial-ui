@@ -1,12 +1,10 @@
-export const INCREMENT_COUNTER = "INCREMENT_COUNTER";
-export const DECREMENT_COUNTER = "DECREMENT_COUNTER";
-
+// import { actionNames } from "../../utils/constants/actionConstants";
 
 //Action Creator
-export const incrementCounter = () => ({
-    type: INCREMENT_COUNTER
-});
+export function* incrementCounter (action) {
 
-export const decrementCounter = () => ({
-    type: DECREMENT_COUNTER
-});
+}
+
+export function* decrementCounter (){
+
+}

@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux';
 import {connectRouter} from 'connected-react-router';
 //import injectedReducers from '../injectedReducers';
-import history from './history';
+//import history from './history';
 import exampleReducer from '../redux-sagas/reducers/exampleReducer';
 
 /**
@@ -9,7 +9,7 @@ import exampleReducer from '../redux-sagas/reducers/exampleReducer';
  */
 export default function createReducer() {
     return combineReducers({
-        router: connectRouter(history),
+        //router: connectRouter(history),
         example: exampleReducer,
         //...injectedReducers,
     });

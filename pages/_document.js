@@ -41,7 +41,10 @@ class MyDocument extends Document {
   }
 }
 
-MyDocument.getInitialProps = async ctx => {
+/**
+ * @param {NextPageContext<any, AnyAction> & {renderPage: RenderPage}} ctx
+ */
+MyDocument.getInitialProps = async (ctx) => {
   // Resolution order
   //
   // On the server:

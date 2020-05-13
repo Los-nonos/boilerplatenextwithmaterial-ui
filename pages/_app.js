@@ -6,6 +6,7 @@ import Router from "next/router";
 import { Provider } from 'react-redux';
 import PageChange from "views/Components/Atoms/PageChange/PageChange.js";
 import withRedux from "next-redux-wrapper";
+import withReduxSaga from 'next-redux-saga';
 import store from '../config/configureStore';
 
 /**
@@ -56,6 +57,9 @@ class MyApp extends App {
   }
 }
 
-const makeStore = () => store;
+const makeStore = () => {
+  const initialState = {};
+  return store(initialState);
+};
 
-export default withRedux(makeStore)(MyApp);
+export default withRedux(makeStore)(withReduxSaga(MyApp));
