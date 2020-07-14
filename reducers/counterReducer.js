@@ -1,4 +1,4 @@
-import { actionNames } from "../../utils/constants/actionConstants";
+import { actionNames } from "../utils/constants/actionConstants";
 
 const counterReducer = (state = {value: 0}, action) => {
     switch (action.type) {

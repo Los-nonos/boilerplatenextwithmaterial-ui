@@ -5,7 +5,7 @@ import createSagaMiddleware from 'redux-saga';
 import { createLogger } from 'redux-logger';
 import createReducer from './reducers';
 // eslint-disable-next-line import/no-cycle
-import rootSaga from '../redux-sagas/sagas';
+import rootSaga from '../sagas';
 
 const isProd = process.env.NODE_ENV === 'production';
 

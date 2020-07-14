@@ -1,4 +1,4 @@
-import { actionNames } from "../../utils/constants/actionConstants";
+import { actionNames } from "../utils/constants/actionConstants";
 
 //Action Creator
 export const incrementCounter = (action) => ({

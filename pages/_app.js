@@ -27,6 +27,7 @@ Router.events.on("routeChangeError", () => {
   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
   document.body.classList.remove("body-page-transition");
 });
+const store = configureStore();
 
 class MyApp extends App {
   componentDidMount() {
@@ -41,7 +42,6 @@ class MyApp extends App {
   render() {
     //pageProps that were returned  from 'getInitialProps' are stored in the props i.e. pageprops
     const { Component, pageProps } = this.props;
-    const store = configureStore();
     return (
         <Provider store={store}>
           <React.Fragment>
@@ -55,4 +55,5 @@ class MyApp extends App {
   }
 }
 
+export const dispatch = store.dispatch;
 export default MyApp;

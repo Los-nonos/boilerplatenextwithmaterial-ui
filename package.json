@@ -41,6 +41,7 @@
     "connected-react-router": "^6.8.0",
     "es6-promise": "^4.2.8",
     "history": "^4.10.1",
+    "jwt-decode": "^2.2.0",
     "moment": "^2.25.3",
     "next": "9.3.2",
     "next-compose-plugins": "2.2.0",

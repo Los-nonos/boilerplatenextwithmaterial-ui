@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
 import {connectRouter} from 'connected-react-router';
-import injectedReducers from '../utils/injectedReducers';
+import injectedReducers from '../injectedReducers';
 //import history from './history';
 
 /**

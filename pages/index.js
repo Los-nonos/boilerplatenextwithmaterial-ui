@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {decrementCounter, incrementCounter} from '../redux-sagas/actions/counterActions';
+import {decrementCounter, incrementCounter} from '../actions/counterActions';
 
 class App extends React.Component {
 
